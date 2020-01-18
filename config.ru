@@ -4,7 +4,7 @@ Bundler.require(:default)
 
 class Application < Sinatra::Base
 
-  get '/_/_' do
+  get '/aaa/_' do
     ENV.inspect
   end
 
